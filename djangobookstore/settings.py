@@ -56,6 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
+        # 'DIRS': [BASE_DIR / 'templates'], # for customize /templates/admin/base_site.html
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
